@@ -1,0 +1,28 @@
+{
+    "name": "kreyu/sonata-exporter-phpspreadsheet-bridge",
+    "type": "library",
+    "description": "Integrates PhpSpreadsheet with Sonata Exporter package.",
+    "keywords": ["phpspreadsheet", "sonata", "exporter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Wróblewski",
+            "email": "kontakt@swroblewski.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "sonata-project/exporter": "^2.0.0",
+        "phpoffice/phpspreadsheet": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kreyu\\SonataExporterPhpSpreadsheetBridge\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kreyu\\SonataExporterPhpSpreadsheetBridge\\Tests\\": "tests"
+        }
+    }
+}
