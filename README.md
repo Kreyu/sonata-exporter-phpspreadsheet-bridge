@@ -17,10 +17,10 @@ Note: default [Sonata Exporter's .xls writer](https://github.com/sonata-project/
 
 use Sonata\Exporter\Handler;
 use Sonata\Exporter\Source\PDOStatementSourceIterator;
-use Kreyu\SonataExporterPhpSpreadsheetBridge\XlsWriter;
+use Kreyu\SonataExporterPhpSpreadsheetBridge\Writer\XlsWriter;
 
 // Prepare the data source
-$dbh = new PDO('sqlite:foo.db');
+$dbh = new \PDO('sqlite:foo.db');
 $stm = $dbh->prepare('SELECT id, username, email FROM user');
 $stm->execute();
 

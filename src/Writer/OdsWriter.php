@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kreyu\SonataExporterPhpSpreadsheetBridge;
+namespace Kreyu\SonataExporterPhpSpreadsheetBridge\Writer;
 
 class OdsWriter extends AbstractWriter
 {
