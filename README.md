@@ -2,7 +2,11 @@
 
 This package integrates [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) with [Sonata Exporter](https://github.com/sonata-project/exporter).
 
-### Supported formats
+```
+$ composer require kreyu/sonata-exporter-phpspreadsheet-bridge
+```
+
+### Supported writer formats
 
 - xls
 - xlsx
